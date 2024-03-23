@@ -1,0 +1,28 @@
+if len(sys.argv) == 1:
+    text = input("Text: ")
+    fonts = random.choice(figlets)
+    figlet.setFont(font = fonts)
+    print(figlet.renderText(text))
+
+
+elif len(sys.argv) == 3:
+    if argv[1:] == "-f" or "--font":
+        word = argv[2:]
+        if word in figlets:
+            text = input("Text: ")
+            set = figlet.setFont(font = word)
+            print(figlet.renderText(text))
+            sys.exit
+
+        else:
+            print("invlid Usage")
+            sys.exit(1)
+
+
+    else:
+        print("invalid Usage")
+        sys.exit(1)
+
+else:
+    print("invalid Usage")
+    sys.exit(1)

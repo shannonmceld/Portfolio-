@@ -1,0 +1,71 @@
+m0 = (credit / 1000000000000000)
+n0 = int(repr(m0)[-1])
+
+m1 = (credit / 100000000000000)
+n1 = int(repr(m1)[-2])
+d1 = n1 * 2
+
+m2 = (credit / 10000000000000)
+n2 = int(repr(m2)[-3])
+
+m3 = (credit / 1000000000000)
+n3 = int(repr(m3)[-4])
+d3 = n3 * 2
+
+m4 = (credit / 100000000000)
+n4 = int(repr(m4)[-5])
+
+m5 = (credit / 10000000000)
+n5 = int(repr(m5)[-6])
+d5 = n5 * 2
+
+m6 = (credit / 1000000000)
+n6 = int(repr(m6)[-7])
+
+m7 = (credit / 100000000)
+n7 = int(repr(m7)[-8])
+d7 = n7 * 2
+
+m8 = (credit / 100000000)
+n8 = int(repr(m8)[-9])
+
+m9 = (credit / 10000000)
+n9 = int(repr(m9)[-10])
+d9 = n9 * 2
+
+m10 = (credit / 1000000)
+n10 = int(repr(m10)[-11])
+d10 = n10
+
+m11 = (credit / 100000)
+n11 = int(repr(m11)[-12])
+d11 = n11 * 2
+
+m12 = (credit / 10000)
+n12 = int(repr(m12)[-13])
+
+m13 = (credit / 1000)
+n13 = int(repr(m13)[-14])
+d13 = n13 * 2
+
+m14 = (credit / 100)
+n14 = int(repr(m14)[-15])
+
+m15 = (credit / 10)
+n15 = int(repr(m
+
+
+ae = re.findall("\B[34][37]{15}$/", credit)
+mc = re.findall("\d{16}$/", credit)
+visa_ = re.findall("\d{15}$/", credit)
+visa = re.findall("\d{13}$/", credit)
+
+    if n14 == 3 and n13 == 4 or n13 == 7:
+        if ae:
+            print(AMEX)
+
+
+
+
+
+print(n1)

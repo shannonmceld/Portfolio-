@@ -1,0 +1,29 @@
+ for i in range(14):
+        newcases["state"] =
+        newcases["date" and 'case'] =
+        if new_case > 14:
+            new_cases[0].del
+
+def calculate(reader):
+    new_cases = dict()
+    previous_cases = dict()
+
+    for i in reader:
+        state = i["state"]
+        date = i["date"]
+        case = int (i["cases"])
+
+        if state not in previous_cases:
+            previous_cases[state] = case
+            new_cases[state] = []
+        else:
+            newcase = case - previous_cases[state]
+            previous_cases[state] = case
+
+            if state not in new_cases:
+                new_state[state] = []
+            if len(new_state[state]) >= 14:
+                new_state[state].pop(0)
+            new_cases[state].append(newcase)
+
+        return new_cases

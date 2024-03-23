@@ -1,0 +1,4 @@
+I  would characterize their audio aura as the mood described by the output of the energy and danceabiility
+ex if danceability is high i would say the aura is happy, if the energy was middle i would say it was more chill and so forth
+
+I would proposed actually prompting the user for their audio aura having them to imput their songs mood meaning first and then of=ver have them like or dislike songs that come on which in turn give a more accurate audio data base which can entale a more substainale adio aura

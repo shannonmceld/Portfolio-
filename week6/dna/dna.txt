@@ -1,0 +1,25 @@
+    myfile = sys.argv[1]
+    with open(myfile) as file:
+        reader = csv.DictReader(file)
+        if "large" in myfile:
+            for i in reader:
+                name = i["name"]
+                AGATC = i["AGATC"]
+                AATG = i["AATG"]
+                TATC = i["TATC"]
+                TTTTTTCT = i["TTTTTTCT"]
+                TCTAG = i["TCTAG"]
+                GATA = i["GATA"]
+                GAAA = i["GAAA"]
+                TCTG = i["TCTG"]
+                #name,AGATC,TTTTTTCT,AATG,TCTAG,GATA,TATC,GAAA,TCTG
+                dna.append({"name": name, "AGATC": AGATC, "AATG": AATG, "TATC": TATC, "TTTTTTCT": TTTTTTCT, "TCTAG": TCTAG, "GATA": GATA, "GAAA": GAAA, "TCTG": TCTG})
+            print(dna)
+        else:
+            for i in reader:
+                name = i["name"]
+                AGATC = i["AGATC"]
+                AATG = i["AATG"]
+                TATC = i["TATC"]
+                dna.append({"name": name, "AGATC": AGATC, "AATG": AATG, "TATC": TATC})
+            print(dna)
