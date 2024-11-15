@@ -21,7 +21,7 @@ This section includes projects and exercises designed to demonstrate my proficie
 
 **[Runoff]**: This project implements a runoff voting system in C++.
 
-**[Speller]**: This project implements a runoff voting system in C++.
+**[Speller]**: This project implements a spell-checker in C++.
 
 **[Substituion]**: This project implements a substitution cipher in C++.
     
