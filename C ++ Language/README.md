@@ -13,12 +13,8 @@ This section includes projects and exercises designed to demonstrate my proficie
     **[Recover]**: This project demonstrates how to recover deleted image files from a memory card using C++.
     **[Runoff]**: This project implements a runoff voting system in C++.
     **[Speller]**: This project implements a runoff voting system in C++.
-      - It loads a dictionary file into memory, checks the spelling of words in a text file, and reports any misspellings.
-      - This project demonstrates efficient data structures (e.g., hash tables or tries) and focuses on memory management and file I/O operations.
-    **[Substituion]**: This project implements a substitution cipher in C++..
-      -It encrypts plaintext by substituting each letter with a corresponding character based on a user-provided key.
-      -The project demonstrates string manipulation, input validation, and basic cryptographic principles.
-
+    **[Substituion]**: This project implements a substitution cipher in C++.
+    
 
 ## Technologies Used 
 - C++ Compiler (e.g., GCC, Visual Studio).
