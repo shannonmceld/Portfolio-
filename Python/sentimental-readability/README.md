@@ -1,7 +1,3 @@
-For the “Sentimental Readability” project, here’s a professional README suggestion:
-
-Suggested README for “Sentimental Readability”
-
 # Sentimental Readability  
 
 ## Description  
