@@ -20,6 +20,7 @@ Immediately following these headers is the actual bitmap: an array of bytes, tri
 
    g++ -o credit credit.cpp  
 2. Run the program:
+   
 ./bottumup
 
 Future Improvements
