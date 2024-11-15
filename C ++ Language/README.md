@@ -3,7 +3,7 @@
 This section includes projects and exercises designed to demonstrate my proficiency in C++. These projects focus on core concepts like object-oriented programming, memory management, and algorithm implementation. 
 
 ## Projects 
-1.  **[Bottomup]**: This project demonstrates a bottom-up approach to solving an upside down image.
+**[Bottomup]**: This project demonstrates a bottom-up approach to solving an upside down image.
     **[Credit]**: This project implements a C++ program that validates credit card numbers using Luhn’s algorithm.
     **[Filter-less]**: This project involves applying image processing filters to bitmap images using C++.
     **[Inheritance]**: This project demonstrates the use of inheritance in C++, a fundamental concept of object-oriented programming.
