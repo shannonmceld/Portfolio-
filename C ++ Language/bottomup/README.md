@@ -15,7 +15,9 @@ Immediately following these headers is the actual bitmap: an array of bytes, tri
 
 ## How to Run 
 1. Compile the code: 
-```bash g++ -o bottomup bottomup.cpp
+  ```bash
+  g++ -o bottomup bottomup.cpp
+
 2. Run the program:
 ./bottumup
 
