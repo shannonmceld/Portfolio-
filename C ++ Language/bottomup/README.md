@@ -26,7 +26,4 @@ Future Improvements
 
 
 Contact
-
-
-
-Created by Shannon Mceldeerry - feedback is welcome!
+Created by Shannon Mcelderry - feedback is welcome!
