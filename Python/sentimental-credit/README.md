@@ -18,12 +18,11 @@ This project is a Python-based sentiment analysis tool that evaluates textual da
    ```bash  
    pip install -r requirements.txt
 
-2.	Run the program:
+2. Run the program:
+   python sentimental_credit.py  
 
-python sentimental_credit.py  
 
-
-3.	Input text or file for sentiment evaluation.
+3. Input text or file for sentiment evaluation.
 
 Future Improvements
 
