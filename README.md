@@ -1,5 +1,5 @@
 # Portfolio 
-A collection of projects showcaasing my skills
+A collection of projects showcasing my skills
 
 ## Projects
   - **[ Password Manager] ( ./Password_Manager)**: A Flask-based secure password manager with SQL database integration.
