@@ -60,4 +60,4 @@ Contact
 
 
 
-Created by Your Name. Suggestions are welcome!
+Created by Shannon Mcelderry. Suggestions are welcome!
