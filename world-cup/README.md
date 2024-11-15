@@ -9,7 +9,11 @@ This project simulates a World Cup tournament using Python. It demonstrates skil
 - Outputs the winner and provides detailed match results.  
 
 ## Technologies Used  
-- Python  
+- Python
+- csv
+- sys
+- random
+- time
 
 ## How to Run  
 1. Run the program:  
