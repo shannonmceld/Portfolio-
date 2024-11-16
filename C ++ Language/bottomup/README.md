@@ -21,12 +21,15 @@ Immediately following these headers is the actual bitmap: an array of bytes, tri
 
 
 2. Run the program:
+
    ./bottumup
 
 Future Improvements
+
    • Optimize the algorithm further.
 
 
 
 Contact
+
 Created by Shannon Mcelderry - feedback is welcome!
