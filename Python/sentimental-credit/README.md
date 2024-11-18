@@ -14,11 +14,13 @@ This project is a Python-based sentiment analysis tool that evaluates textual da
 - [sys]  
 
 ## How to Run  
-1. Install dependencies:  
+1. Install dependencies:
+     
    ```bash  
    pip install -r requirements.txt
 
 2. Run the program:
+  
    python sentimental_credit.py  
 
 
