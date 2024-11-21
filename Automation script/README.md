@@ -1,6 +1,6 @@
-#Email Automation with Python
+# Email Automation with Python
 
-##Overview
+## Overview
 This is a Python-based email automation script designed for sending personalized emails using data from a CSV file. The program supports error handling, logging, and task scheduling, making it ideal for streamlining email workflows.
 
 
@@ -17,9 +17,9 @@ Key Features
 • Supports task scheduling for automated email sending at specified intervals.
 
 
-##Setup Instructions
+## Setup Instructions
 
-###Requirements
+### Requirements
 • Python 3.8+
 
 • Required libraries:
@@ -46,7 +46,7 @@ Key Features
 3. Configure your SMTP settings in the script.
 
 
-##How to Use
+## How to Use
 
 1. Prepare Your CSV File
 
@@ -82,9 +82,9 @@ Error Handling
 
 • Comprehensive error handling ensures the program continues running seamlessly.
 
-##Logging
+## Logging
 
-###The program generates detailed logs for:
+### The program generates detailed logs for:
 
 • Email success or failure.
 
@@ -94,9 +94,9 @@ Error Handling
 
 • Permissions errors with fallback logging mechanisms.
 
-##Testing
+## Testing
 
-###The program has been tested for:
+### The program has been tested for:
 
 • Missing fields in CSV.
 
@@ -106,7 +106,7 @@ Error Handling
 
 • File and directory permission restrictions.
 
-##Future Enhancements
+## Future Enhancements
 
 • Add GUI support for non-technical users.
 
