@@ -1,0 +1,6 @@
+2024-11-21 11:14:20,007 - INFO - Logging initialized successfully.
+2024-11-21 11:14:20,007 - ERROR - The CSV file was not Found. Please Ensure it exists.
+2024-11-21 11:15:28,994 - INFO - Logging initialized successfully.
+2024-11-21 11:15:39,009 - INFO - Sending Email...emailgarrett93@gmail.com with subject: Hello! and body: This is the first message.
+2024-11-21 11:15:40,311 - INFO - Email Sent Successfully!
+2024-11-21 11:15:40,311 - INFO - Sending Email...grrttshae1@gmail.com with subject: I hope this works and body: The is the next message.
