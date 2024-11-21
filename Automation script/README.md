@@ -37,7 +37,7 @@ Key Features
 • tempfile
 
 
-###Installation
+### Installation
 1. Clone or download the repository.
 
 2. Install necessary dependencies using:
@@ -50,37 +50,37 @@ Key Features
 
 1. Prepare Your CSV File
 
-Create a CSV file named emails.csv with the following headers:
+    Create a CSV file named emails.csv with the following headers:
+    
+    • recipient_email: The recipient’s email address.
 
-• recipient_email: The recipient’s email address.
+    • subject: The subject of the email.
 
-• subject: The subject of the email.
-
-• body: The body content of the email.
+    • body: The body content of the email.
 
 2. Configure SMTP Server
 
-Update the script with your email provider’s SMTP server and port details, along with your credentials:
-smtp_server = "smtp.gmail.com"
-smtp_port = 587
-sender_email = "your-email@example.com"
-password = "your-password"
+    Update the script with your email provider’s SMTP server and port details, along with your credentials:
+    smtp_server = "smtp.gmail.com"
+    smtp_port = 587
+    sender_email = "your-email@example.com"
+    password = "your-password"
 
 3. Run the Script
 
-To send emails:
-python email_automation.py
+    To send emails:
+    python email_automation.py
 
 4. Schedule Emails
 
-Use the task scheduling feature to automate sending at intervals:
-schedule.every(1).hours.do(send_email_task)
-Error Handling
-• Invalid email addresses, network failures, and missing fields are logged.
+    Use the task scheduling feature to automate sending at intervals:
+    schedule.every(1).hours.do(send_email_task)
+    Error Handling
+    • Invalid email addresses, network failures, and missing fields are logged.
 
-• If the log file is unwritable, logs are redirected to the console or a temporary file.
+    • If the log file is unwritable, logs are redirected to the console or a temporary file.
 
-• Comprehensive error handling ensures the program continues running seamlessly.
+    • Comprehensive error handling ensures the program continues running seamlessly.
 
 ## Logging
 
