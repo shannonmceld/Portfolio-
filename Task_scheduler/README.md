@@ -35,8 +35,6 @@ View pending tasks and receive email reminders for due tasks.
 
 ### Project Structure
 
-php
-Copy code
 task-scheduler/
 │
 ├── app.py                # Main application file
