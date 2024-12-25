@@ -19,14 +19,13 @@
 
   h1 {
     text-align: center;
-    color: #0;
+    color: #0000; 
   }
 
   body {
     color: #F8F8F9;
     font: "Building";
     padding: 0.5em;
-    margin: ;
     background: #021082
   }
 
@@ -36,7 +35,6 @@
     margin-bottom: 1rem;
     font: "Building";
     font-size: 25px;
-    border: ;
     width: 100%;
 }
 

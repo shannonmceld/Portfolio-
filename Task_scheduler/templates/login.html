@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block main %}
+<h2>Log In</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+        {{ form.email.label }}<br>
+        {{ form.email(class="form-control") }}
+        {% for error in form.email.errors %}
+            <small class="text-danger">{{ error }}</small>
+        {% endfor %}
+    </div>
+    <div class="form-group">
+        {{ form.password.label }}<br>
+        {{ form.password(class="form-control") }}
+        {% for error in form.password.errors %}
+            <small class="text-danger">{{ error }}</small>
+        {% endfor %}
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>  
+
+<p></p>
+<form action="/forgot_password" method="get">
+    <div class="position-relative translate-right">
+        <button type="submit" class="btn-outline-light btn-lg btn-block" data-bs-dismiss="alert" aria-label="submit">Forgot Password
+        </button>
+    </div>
+</form>
+{% endblock %}

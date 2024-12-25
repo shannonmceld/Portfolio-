@@ -1,0 +1,42 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Update Task
+{% endblock %}
+
+{% block main %}
+
+<html lang="en">
+    <body>
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <div>
+                {{ form.title.label }}<br>
+                {{ form.title(size=40) }}
+            </div> 
+            <div>
+                {{ form.description.label }}<br>
+                {{form.description(rows=4, cols=40) }}
+            </div>
+            <div>
+                {{ form.email.label }}<br>
+                {{ form.email(size=40) }}
+            </div>
+            <div>
+                {{ form.due_date.label }}<br>
+                {{ form.due_date() }}
+            </div>
+            <div>
+                {{ form.reminder_time.label }}<br>
+                {{ form.reminder_time() }}
+            </div>
+            <div>
+                {{ form.completed.label }}<br>
+                {{ form.completed() }}
+            </div>
+            <button type="submit" class="btn btn-primary">Update Task</button>
+        </form>
+        <a href="{{ url_for ('view_task') }}">Back To Tasks</a>
+    </body>
+</html>
+{% endblock %}

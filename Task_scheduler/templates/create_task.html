@@ -1,0 +1,45 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Create Task
+{% endblock %}
+
+{% block main %}
+<html lang="en">
+    <body>
+        <h1>New Task</h1>
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <div class="form group">
+                <label for="title">{{ form.title.label }}</label><br>
+                {{ form.title(size=50) }} <br>
+            </div>
+            <div class="form group">
+                <label for="description">{{ form.description.label }}</label><br>
+                {{ form.description(cols=50, rows=5) }} <br>
+            </div>
+            <div class="form group">
+                <label for="email">{{ form.email.label }}</label><br>
+                {{ form.email(size=50) }}<br>
+            </div>
+            <div class="form group">
+                <label for="due_date">{{ form.due_date.label }}</label><br>
+                {{ form.due_date(class="form-control", placeholder="MM-DD-YYYY HH:MM") }}<br>
+            </div>
+            <div class="form group">
+                <label for="reminder_time">{{ form.reminder_time.label }}</label><br>
+                <date>{{ form.reminder_time(class="form-control", placeholder="MM-DD-YYYY HH:MM") }}</date><br>
+            </div>
+            <div class="form group">
+                <label for="completed">{{ form.completed.label }}</label><br>
+                {{ form.completed() }}<br>
+            </div>
+            <div class="form group">{{ form.submit() }}
+                
+            </div>
+        </form>
+        
+    </body>
+</html>
+{% endblock %}
+

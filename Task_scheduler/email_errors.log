@@ -1,0 +1,33 @@
+2024-12-25 11:05:59,507 - INFO - Scheduler is Starting.....
+2024-12-25 11:05:59,530 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 11:05:59,530 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 11:05:59,540 - INFO -  * Restarting with stat
+2024-12-25 11:06:00,356 - INFO - Scheduler is Starting.....
+2024-12-25 11:06:00,368 - WARNING -  * Debugger is active!
+2024-12-25 11:06:00,371 - INFO -  * Debugger PIN: 125-964-066
+2024-12-25 11:10:48,735 - INFO -  * Detected change in 'C:\\Git\\GitHub\\Portfolio-\\Task_scheduler\\app.py', reloading
+2024-12-25 11:10:49,284 - INFO -  * Restarting with stat
+2024-12-25 11:10:50,300 - INFO - Scheduler is Starting.....
+2024-12-25 11:10:50,317 - WARNING -  * Debugger is active!
+2024-12-25 11:10:50,335 - INFO -  * Debugger PIN: 125-964-066
+2024-12-25 11:10:52,407 - INFO -  * Detected change in 'C:\\Git\\GitHub\\Portfolio-\\Task_scheduler\\app.py', reloading
+2024-12-25 11:10:52,501 - INFO -  * Restarting with stat
+2024-12-25 11:10:53,369 - INFO - Scheduler is Starting.....
+2024-12-25 11:10:53,384 - WARNING -  * Debugger is active!
+2024-12-25 11:10:53,386 - INFO -  * Debugger PIN: 125-964-066
+2024-12-25 11:11:38,800 - INFO -  * Detected change in 'C:\\Git\\GitHub\\Portfolio-\\Task_scheduler\\app.py', reloading
+2024-12-25 11:11:38,935 - INFO -  * Restarting with stat
+2024-12-25 11:19:45,051 - INFO - Scheduler is Starting.....
+2024-12-25 11:19:45,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-25 11:19:45,094 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-25 11:19:45,110 - INFO -  * Restarting with stat
+2024-12-25 11:19:45,971 - INFO - Scheduler is Starting.....
+2024-12-25 11:19:45,977 - WARNING -  * Debugger is active!
+2024-12-25 11:19:45,991 - INFO -  * Debugger PIN: 125-964-066
+2024-12-25 11:20:25,689 - INFO -  * Detected change in 'C:\\Git\\GitHub\\Portfolio-\\Task_scheduler\\app.py', reloading
+2024-12-25 11:20:25,792 - INFO -  * Restarting with stat
+2024-12-25 11:20:26,559 - INFO - Scheduler is Starting.....
+2024-12-25 11:20:26,580 - WARNING -  * Debugger is active!
+2024-12-25 11:20:26,581 - INFO -  * Debugger PIN: 125-964-066

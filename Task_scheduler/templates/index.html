@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="=device-width, initial-scale=1.0">
+    <title>Welcome to Task Scheduler {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+  </head>
+<body>
+  <h1>Task Scheduler</h1>
+    <nav class="bg-dark border navbar">
+      <div class="nav justify-content-end">
+          <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link active" href="/create">Create Task</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/view">View Tasks</a></li> 
+            <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto mt-2">
+            <li class="nav-item"><a class="nav-link active" href="/register">Register</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/login">Login</a></li>
+          </ul>
+      </div>
+    </nav>
+
+    {% with messages = get_flashed_messages(with_categories=True) %}
+    {% if messages %} 
+      <div class="alert mb-0 text-center" style="color: #1D1D1d " role="alert"> {% for category, message in messages %} 
+        <nav class="{{ category }}">{{ message }}</nav> 
+    {% endfor %} 
+      </div> {% endif %} {% endwith %}
+    <main class="container-fluid py-5 text-center">
+      {% block main %}
+      <div>
+      <h1>Keep Your Task On a Schedule & Up to Date</h1>
+      </div>
+      {% endblock %}
+    </main>
+  </body>
+</html>
